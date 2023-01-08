@@ -10,4 +10,5 @@
 ./hurricanegen 1310720 128
 ./hurricanegen 2621440 256
 ./hurricanegen 5242880 512
+./hurricanegen 21893120 2048
 
