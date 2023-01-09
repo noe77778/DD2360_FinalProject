@@ -54,8 +54,11 @@ done
 Change your own input data file names in the first for loop, if needed. Also, change the ```half_DT``` name to your output file name in step 3. Change the -r, -lat, -lng to your desire parameters.
 
 Results will show your input dataset name and the returned number of data in the format of:
-+++++++++++++++++++++++++++++++++++ FILE_NAME r RETURN_NUMBER +++++++++++++++++++++++++++++++++++
++++++++++ FILE_NAME r RETURN_NUMBER +++++++
+
 The first three rows show the time for host-to-device, kernel, and device-to-host with gettimeofday() function.
+
 And the following will show the returned and profiling results analysized by nvprof.
 
+You can also execute the Final_project_DD2360HT22.ipynb under this repository.
 
