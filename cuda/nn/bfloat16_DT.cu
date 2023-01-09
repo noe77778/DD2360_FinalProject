@@ -177,7 +177,7 @@ int main(int argc, char* argv[])
 
     // print out results
     if (!quiet)
-    for(i=0;i<10;i++) {//for(i=0;i<resultsCount;i++)
+    for(i=0;i<resultsCount;i++) {//for(i=0;i<resultsCount;i++)
       printf("%s --> Distance=%f\n",records[i].recString,(__bfloat162float)(records[i].distance));
     }
     free(distances);
