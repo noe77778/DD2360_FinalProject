@@ -13,7 +13,8 @@ Execution steps:
 !git clone https://github.com/noe77778/DD2360_FinalProject
 ```
 2. Generate several data for testing. (You can also change the size of dataset.)
-Usage:
+
+Usage example:
 ```
 ./hurricane_gen <num records> <num files>
 ```
@@ -30,8 +31,9 @@ Usage:
 %cd /content/DD2360_FinalProject/cuda/nn
 !nvcc -arch=sm_75 nn_cuda.cu -o Original_code
 ```
-Change nn_cuda.cu to float_DT.cu / double_DT.cu / half_DT.cu / bfloat16_DT.cu for different data types.
+Change ```nn_cuda.cu``` to ```float_DT.cu``` / ```double_DT.cu``` / ```half_DT.cu``` / ```bfloat16_DT.cu``` for different data types.
 Also, change the output name for each data type. 
+
 4. Execute programs to get the results
 ```
 %%shell 
@@ -49,7 +51,7 @@ do
 done
 ```
 
-Change your own input data file names in the first for loop, if needed. Also, change the half_DT name to your output file name in step 3. Change the -r, -lat, -lng to your desire parameters.
+Change your own input data file names in the first for loop, if needed. Also, change the ```half_DT``` name to your output file name in step 3. Change the -r, -lat, -lng to your desire parameters.
 
 Results will show your input dataset name and the returned number of data in the format of:
 +++++++++++++++++++++++++++++++++++ FILE_NAME r RETURN_NUMBER +++++++++++++++++++++++++++++++++++
